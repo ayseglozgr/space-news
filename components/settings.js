@@ -10,7 +10,7 @@ const App = () => {
     setUsernameInput(text)
   }
   const handleUpdateButtonPress = async () => {
-    const res = await fetch(`http://api.github.com/users/${usernameInput}`)
+    const res = await fetch(`https://api.github.com/users/${usernameInput}`)
     const obj = await res.json()
 
     if (obj.message === "Not Found") {

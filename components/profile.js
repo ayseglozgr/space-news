@@ -112,7 +112,7 @@ const Profile = (props) => {
               <View style={{ flexDirection: 'row', marginTop: 60 }}>
                 <Image source={require('../Assets/starIcon1.png')}
                   style={{ width: 15, height: 15, borderRadius: 100, margin: 3, marginLeft: 10 }} />
-                <Text> 
+                <Text>
                   1
                 </Text>
                 <View style={{ backgroundColor: '#FF6190', height: 10, width: 10, borderRadius: 100, marginTop: 5, marginRight: 5, marginLeft: 5 }}>
@@ -122,7 +122,7 @@ const Profile = (props) => {
                   {repo.language}
                 </Text>
               </View>
-            </View> 
+            </View>
           )
         })}
 
