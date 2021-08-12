@@ -122,7 +122,7 @@ const Profile = (props) => {
                   {repo.language}
                 </Text>
               </View>
-            </View>
+            </View> 
           )
         })}
 
